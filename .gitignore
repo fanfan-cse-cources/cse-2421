@@ -1,2 +1,6 @@
 .DS_Store
 ~*
+submission/*
+!submission/*.zip
+!submission/*.gpg
+!submission/cse_2421_workflow.pdf
