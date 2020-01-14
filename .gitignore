@@ -1,5 +1,5 @@
 .DS_Store
-~*
+vagrant/.vagrant
 submission/*
 !submission/*.zip
 !submission/*.gpg
