@@ -1,0 +1,21 @@
+# Lab 2 README
+
+1. BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY ADHERED TO THE TENURES OF THE OHIO STATE UNIVERSITY’S ACADEMIC INTEGRITY POLICY WITH RESPECT TO THIS ASSIGNMENT.
+
+	THIS IS THE README FILE FOR LAB 2.
+
+	Student name: Yifan Yao.740
+
+2. 18 hours.
+3. I was not realize we can use `#ifdef` for mutiple times, it wasted me TON of times to dealing with single `ifdef` and try to figure out a solution.
+4. I was using 1111 as my 4-bit key when I am debuging, my program will execute OR with corresponded position. I set two break points, one breakpoint was set before `internalKeyValue` changed, and the another one was set before `hex ciphertext` to ensure my calculation is correct. Due to my implication, 0 is safe to ignore.
+
+```
+$0 = 136 /* 0 | 10001000 = 10001000 */
+$1 = 204 /* 10001000 | 01000100 = 11001100 */
+$2 = 238 /* 11001100 | 00100010 = 11101110 */
+$3 = 255 /* 11101110 | 00010001 = 11111111 */
+```
+
+5. I compiled my bit_encode2 with `--save-temps` option manually because I need to see my `.i` file is correct. However, `gdb` was runed to ensure my `internalKeyValue` is correct.
+6. `Makefile` tool is pretty useful for compiling complex C program. Since we all make mistakes, therefore, when it is essencial for us to have the same compiling parameters. Additionally, in this lab, we can use `make all` command to compile different versions of the executable file with the same source code.
