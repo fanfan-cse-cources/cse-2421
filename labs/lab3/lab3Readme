@@ -1,0 +1,17 @@
+# Lab 3 README
+
+1. BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY ADHERED TO THE TENURES OF THE OHIO STATE UNIVERSITY’S ACADEMIC INTEGRITY POLICY WITH RESPECT TO THIS ASSIGNMENT.
+
+	THIS IS THE README FILE FOR LAB 3.
+
+	Student name: Yifan Yao.740
+
+2. 18 hours.
+
+3. There is no opportunities for me to test the scenario when my program cannot close the file output stream (I was able to made an empty file with 000 permission to test `fopen` failure).
+
+PLEASE ANSWER FOLLOWING QUESTION IN COMMENT:
+
+* In `readtitles.c` why it is essencial to put parenthesis around return value. Maybe because of we need to protect the value after function executed?
+	
+4.	gdb was used when I was trying to figure out my program's logic and proofread the correctness of my program. Since we are working on pointers, therefore, I perfer to use `printf` to debug my program by showing each value's memory address. However, I do set breakpoints to `main` to see how everything works with reduced amount of input.
