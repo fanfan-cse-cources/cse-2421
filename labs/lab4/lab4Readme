@@ -1,0 +1,13 @@
+# Lab 4 README
+
+1. BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY ADHERED TO THE TENURES OF THE OHIO STATE UNIVERSITY’S ACADEMIC INTEGRITY POLICY WITH RESPECT TO THIS ASSIGNMENT.
+
+	THIS IS THE README FILE FOR LAB 4.
+
+	Student name: Yifan Yao.740
+
+2. 20 hours.
+
+3. From this Lab, the biggest problem I have was making decisions about where to check user input. For instance, I want my Node insertion can worked under any scenario (even with duplicate stock#) so I can reuse this piece of code easily. Therefore, I decide to check data at the function where promote user to make input. However, I also realized the fact that when there is large amount of files here, and they were corresponding with each other, if I made a change of somewhere and screwed up, I need to reverse everything back to working condition. Therefore, `git` was utilized a lot during the construction.
+
+4. I did not fully utilize `gdb` to finding bugs in my program because setting breaking points and run over and over again takes too many times (which I do not have enough patience). However, `gdb` was used to ensure all Nodes were inserted with correct order at once. The good thing is when I am writing my program, I did not have any constitutive problems which leads to a disaster. Per to the instroction, although I printed all memory address which I allocated and freed, `gdb` was used to verify everything was working properly.
