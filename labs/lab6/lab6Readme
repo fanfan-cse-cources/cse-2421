@@ -1,0 +1,19 @@
+# Lab 6 README
+
+1. BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY ADHERED TO THE TENURES OF THE OHIO STATE UNIVERSITY’S ACADEMIC INTEGRITY POLICY WITH RESPECT TO THIS ASSIGNMENT.
+
+    THIS IS THE README FILE FOR LAB 6.
+
+    Yifan Yao.740
+
+2. 48 hours
+
+3. My program did not work as I expected when I were trying to make my program more efficient:(
+
+4. I tried to use gdb to figure out why my program works well when I were redirecting the text file into it, but it doesn't work when I were trying to use the keyboard. I did not figured it out yet. However, the problem is occured on reading my keyboard value.
+
+5. gdb were used to confirm the theory that using `xorq %rax, %rax` is does the same thing as `movq $0, %rax` and more efficient.
+
+6. I use gdb to track my jump sequence; However, at most time, when I executed it, seg fault pops up when I did something wrongly.
+
+7. No, I jump between notes and recorded lecutures.
