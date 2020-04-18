@@ -1,0 +1,42 @@
+# Lab 7 README
+
+1. Certification:
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I STRICTLY ADHERED TO THE TENURES 
+OF THE OHIO STATE UNIVERSITY’S ACADEMIC INTEGRITY POLICY. THIS IS THE README FILE 
+FOR LAB 7.
+
+2. Student name
+
+    Yifan Yao.740
+
+3. Total amount of time to complete the entire lab
+
+    48 hours
+
+4. How you used gdb to help with your program
+
+    gdb were used to track value multiplication, overflow, and sign change. Also,
+    gdb tells me the line who caused seg fault. In addition, I also use gdb to track 
+    values in stack to ensure the correctness of the address.
+
+5. One thing you learned or observed about programming in x86-64 while doing the lab
+
+    I learned when there is a value in register is not needed for a while, I can push
+    it to stack first and pop it when I need it to secure the value from modified by
+    other instructions.
+
+6. The two items specified below that belong in the README file
+
+    Unsigned long z value, and unsigned integer z values are not consistent.
+    The size of int is 4-byte, so it can only use 32-bit binary to represent a value, 
+    but the size of int is 8-byte which can use to hold more digits.
+
+7. Describe - to the best of your ability- the difference (if there is one) between 
+the two 3D graphs that gnuplot creates from your data with 250 as the high value 
+for x and y. If the graphs are consistent, say that.
+
+    The plot for long value is consistent with other long value plots (and int 
+    values up to 100), however, when we are plotting the value for int 250, the 
+    shape falling apart because there is an overflow occurs and a 4-byte int value 
+    cannot used to represent the result.
+
