@@ -4,8 +4,8 @@ all: lab6.zip lab6
 
 # you must have a subsequent target for each file listed above on the right side of the colon
 # that would be lab6.zip and lab6 here
-lab6.zip: *.c *.s
-	zip lab6.zip *.c *.s lab6Readme
+lab6.zip: *.c *.s Makefile
+	zip lab6.zip *.c *.s lab6Readme Makefile
 
 lab6main.o: lab6main.c
 	gcc -ansi -pedantic -c -g lab6main.c
